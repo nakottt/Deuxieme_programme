@@ -53,34 +53,3 @@ hp_joueur[classe] = pve(nom_joueur, classe, hp_joueur[classe], poule["nom"], pou
 
 dinde = {"nom": "dinde enragée","pv":45, "attaque":poule_attaque}
 hp_joueur[classe] = pve(nom_joueur, classe, hp_joueur[classe], dinde["nom"], dinde["pv"])
-
-
-
-# print ("Une poule sauvage de barbarie, seche et nerveuse apparaît !")
-# # ennemi : poule sauvage
-# poule_nom = "Poule sauvage"
-# poule_hp = 30
-
-# print (poule_nom, "possède", poule_hp, "points de vie.")
-# # combat
-# while poule_hp >0 and hp_joueur[classe]>0:
-#     # le joueur attaque
-#     attaque = input ("Appuyez sur A pour attaquer la poule...")
-#     if attaque == "A":
-#         print (nom_joueur, "attaque la", poule_nom,"!")
-#         poule_hp = attaque_auto (poule_hp, nom_joueur)
-#         if poule_hp <=0:
-#             print ("La", poule_nom, "est vaincue !")
-#             break
-#         print (poule_nom, "possède encore", poule_hp, "points de vie.")
-#         # la poule attaque
-#         print (poule_nom, "attaque", nom_joueur,"!")
-#         damages = poule_attaque(hp_joueur[classe])
-#         hp_joueur[classe] -= damages
-        
-#         if hp_joueur[classe] <=0:
-#             print (nom_joueur, "est vaincu ! Game Over.")
-#             break
-#         print (nom_joueur, "possède encore", hp_joueur[classe], "points de vie.")
-#     else:
-#         print ("Vous vous enfuyez comme une merde et le combat est terminé")
