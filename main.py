@@ -1,5 +1,6 @@
 from spells import attaque_auto, coupret_hit, execute
 from spells import poule_attaque
+from map_system import creer_map, afficher_map, trouver_joueur, deplacer_joueur
 # constantes
 RACES = ["Humain", "Elfe", "Nain", "Gnome", "Worgen", "Drainei"]
 CLASSES = ["Guerrier", "Mage", "Voleur", "Druide", "Chasseur", "Pretre"]
