@@ -1,6 +1,7 @@
 from fight import pve
 from classes_spells import classes_attackes
-
+from map_system import creer_map, afficher_map, deplacer_joueur 
+from spells import poule_attaque
 # ======================
 # CONSTANTES
 # ======================
