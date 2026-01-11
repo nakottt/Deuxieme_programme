@@ -22,13 +22,15 @@ HP_PAR_CLASSE = {
 # ======================
 print("Bonjour, créez votre personnage !")
 
-race = input("Choisir une race : ")
 for i, r in enumerate(RACES):
     print(f"{i+1}. {r}")
-    
+race = input("Choisir une race : ")
+
 while race not in RACES:
     race = input("Race invalide, recommence : ")
 
+for i, c in enumerate(CLASSES):
+    print(f"{i+1}. {c}")
 classe = input("Choisir une classe : ")
 while classe not in CLASSES:
     classe = input("Classe invalide, recommence : ")
